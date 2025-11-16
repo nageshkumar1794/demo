@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+</head>
+<body>
+
+<h3>1. What is the difference between List, Set, and Map?</h3>
+<p>
+    <strong>List:</strong> An ordered collection that allows duplicate elements. Elements can be accessed by their index.<br>
+    <strong>Set:</strong> An unordered collection that does not allow duplicate elements. It is used to store unique items.<br>
+    <strong>Map:</strong> A collection of key-value pairs where each key is unique. It allows for fast retrieval of values based on their <keys class=""> </keys>
+</p>
+<h3>How does HashMap work internally? </h3>
+<p>
+    HashMap uses a hash table to store key-value pairs. When a key-value pair is added, the key is hashed to produce an index in an array where the value will be stored. If two keys hash to the same index (a collision), HashMap uses a linked list or a balanced tree to store multiple entries at that index. When retrieving a value, the key is hashed again to find the correct index, and then the linked list or tree is searched for the specific.
+    Uses an array of buckets.
+
+    Each bucket stores a linked list or tree (since Java 8).
+
+    Hashing: hash(key) determines bucket index.
+
+    Collisions resolved using separate chaining (list/tree).
+</p>
+<h3>What is the difference between ArrayList and LinkedList?</h3>
+
+
+</body>
+</html>
