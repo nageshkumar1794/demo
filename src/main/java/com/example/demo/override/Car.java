@@ -1,6 +1,6 @@
 package com.example.demo.override;
 
-public class Car {
+public abstract class Car {
     private String type;
     private String model;
 
