@@ -124,24 +124,24 @@ public class DemoApplication {
 //		ll.toString();
 //
 //		//  ------------------------------------
-//		Car onlyCar = new Car("Auto", "Ford");
-//		String name = onlyCar.start();
-//
-//		Car defaultCat = new Car();
-//		defaultCat.stop();
-//
-//		System.out.println("Name returned is " + name);
-//
-//		onlyCar.changeGear();
+		Car onlyCar = new Electric("Auto", "Ford");
+		String name = onlyCar.start();
 
-//		Car myCar1 = new Gas("Gear", "Honda");
-//		Car myCar2 = new Electric("Auto", "Tesla");
+		Car defaultCat = new Gas("Manual", "Chevy");
+		defaultCat.stop();
+
+		System.out.println("Name returned is " + name);
+
+		onlyCar.changeGear();
 //
-//		myCar1.doOperations();
-//		System.out.println(myCar1.toString());
-//
-//		myCar2.doOperations();
-//		System.out.println(myCar2.toString());
+		Car myCar1 = new Gas("Gear", "Honda");
+		Car myCar2 = new Electric("Auto", "Tesla");
+
+		myCar1.doOperations();
+		System.out.println(myCar1.toString());
+
+		myCar2.doOperations();
+		System.out.println(myCar2.toString());
 
 		//  ------------------------------------
 
